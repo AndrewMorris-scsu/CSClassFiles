@@ -1,0 +1,171 @@
+Script started on September 16, 2015 03:53:28 PM CDT
+> Hexadecimal
+Welcome to Andrew Morris' implementation of Project 2
+Input a number:1541241
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+1
+0x00178479
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+0x01784790
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+0x17847900
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+0x78479001
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+0x84790017
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+0x47900178
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+0x79001784
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+0x90017847
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+0x00178479
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+0x90017847
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+0x79001784
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+0x47900178
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+0x84790017
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+0x78479001
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+0x17847900
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+0x01784790
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+0x00178479
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+4
+What digit would you like to be zero?
+2
+0x00178079
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+4
+What digit would you like to be zero?
+3
+0x00170079
+Select option
+1 - Display number in hexadecimal 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+5
+> exit
+exit
+
+script done on September 16, 2015 04:02:45 PM CDT

@@ -1,0 +1,171 @@
+Script started on October 17, 2016 12:09:34 PM CDT
+tcsh: using dumb terminal settings.
+> ls
+typescript
+> pwd
+/export/home/cs411/cs411117/Documents/hw2
+> $ORACLE_HOME/s bin/sqlplus
+
+SQL*Plus: Release 10.2.0.2.0 - Production on Mon Oct 17 12:10:20 2016
+
+Copyright (c) 1982, 2005, Oracle.  All Rights Reserved.
+
+Enter user-name: cs411117
+Enter password: 
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.2.0 - Production
+With the Partitioning, OLAP and Data Mining options
+
+SQL> Ex XEC avgFee ('Spot');
+
+PL/SQL procedure successfully completed.
+
+SQL> s SET SERVEROUTPUT ON
+SQL> EXEC avgFee ('Spot');
+Average Fee = 21.66666666666666666666666666666666666667
+For Dog = Spot
+
+PL/SQL procedure successfully completed.
+
+SQL> Exec abg  vgFee ('Fido');
+Average Fee = 41.25
+For Dog = Fido
+
+PL/SQL procedure successfully completed.
+
+SQL> EXEC age  ve gFee 9 ('Tiger');
+Average Fee = 25
+For Dog = Tiger
+
+PL/SQL procedure successfully completed.
+
+SQL> EXEC loc ('Alice');
+Alice
+Performed Examinations at:
+Minneapolis
+St. Cloud
+
+PL/SQL procedure successfully completed.
+
+SQL> EXEC loc ('Mary');
+Mary
+Performed Examinations at:
+Minneapolis
+Duluth
+St. Cloud
+
+PL/SQL procedure successfully completed.
+
+SQL> EXEC loc ('Ju im');
+Jim
+Performed Examinations at:
+Duluth
+St. Cloud
+
+PL/SQL procedure successfully completed.
+
+SQL> get   GET QUer  ERI     queri  es.sql
+  1  --5.2.5
+  2  Select Distinct C1.sid
+  3  FROM Catalog C1,
+  4     (Select C.pid, AVG(C.cost) AvgCost
+  5      FROM Catalog C
+  6      GROUP BY C.pid) Temp
+  7   WHERE C1.pid = Temp.pid
+  8   AND C1.cost > Temp.avgCost;
+  9  --5.2.8
+ 10  Select S1.sid
+ 11  FROM Suppliers S1, Catalog C1, Parts P1
+ 12  WHERE S1.sid = C1.sid AND C1.pid = P1.pid
+ 13  AND P1.color = 'Red'
+ 14  INTERSECT
+ 15  Select S2.sid
+ 16  FROM Suppliers S2, Catalog C2, Parts P2
+ 17  WHERE S2.sid = C2.sid AND C2.pid = P2.pid
+ 18  AND P2.color = 'Green';
+ 19  --5.2.10
+ 20  Select S.sname, Temp1.numParts
+ 21  FROM Suppliers S,
+ 22   (Select Count(C1.pid) numParts, C1.sid
+ 23    FROM Catalog C1
+ 24    GROUP BY C1.sid) Temp1
+ 25    --,  () Temp2
+ 26  WHERE S.sid = Temp1.sid
+ 27       AND S.sid NOT IN (
+ 28        Select Temp3.sid
+ 29        FROM (Select Distinct C.sid
+ 30               FROM Catalog C, Parts P
+ 31               WHERE C.pid = P.pid
+ 32               AND P.color <> 'Green') Temp3
+ 33*      );
+ 34  
+SQL> 
+SQL> Run
+  1  --5.2.5
+  2  Select Distinct C1.sid
+  3  FROM Catalog C1,
+  4     (Select C.pid, AVG(C.cost) AvgCost
+  5      FROM Catalog C
+  6      GROUP BY C.pid) Temp
+  7   WHERE C1.pid = Temp.pid
+  8   AND C1.cost > Temp.avgCost;
+  9  --5.2.8
+ 10  Select S1.sid
+ 11  FROM Suppliers S1, Catalog C1, Parts P1
+ 12  WHERE S1.sid = C1.sid AND C1.pid = P1.pid
+ 13  AND P1.color = 'Red'
+ 14  INTERSECT
+ 15  Select S2.sid
+ 16  FROM Suppliers S2, Catalog C2, Parts P2
+ 17  WHERE S2.sid = C2.sid AND C2.pid = P2.pid
+ 18  AND P2.color = 'Green';
+ 19  --5.2.10
+ 20  Select S.sname, Temp1.numParts
+ 21  FROM Suppliers S,
+ 22   (Select Count(C1.pid) numParts, C1.sid
+ 23    FROM Catalog C1
+ 24    GROUP BY C1.sid) Temp1
+ 25    --,  () Temp2
+ 26  WHERE S.sid = Temp1.sid
+ 27       AND S.sid NOT IN (
+ 28        Select Temp3.sid
+ 29        FROM (Select Distinct C.sid
+ 30               FROM Catalog C, Parts P
+ 31               WHERE C.pid = P.pid
+ 32               AND P.color <> 'Green') Temp3
+ 33*      );
+--5.2.5
+*
+ERROR at line 1:
+ORA-24374: define not done before fetch or execute and fetch
+
+
+SQL> queries.sp ql
+SP2-0734: unknown command beginning "queries.sq..." - rest of line ignored.
+SQL> START T qu  ./queries.s  s.  .sql
+
+       SID
+----------
+         1
+         6
+         2
+         3
+
+
+       SID
+----------
+         3
+
+
+SNAME                       NUMPARTS
+------------------------- ----------
+OnlyGreen                          1
+
+SQL> w exit
+Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.2.0 - Production
+With the Partitioning, OLAP and Data Mining options
+> exit
+exit
+
+script done on October 17, 2016 12:32:30 PM CDT

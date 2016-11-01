@@ -1,0 +1,111 @@
+Script started on October  1, 2015 04:04:10 PM CDT
+> sh[K[Kwhoami
+cs311122
+> make
+cc -o DB DB.c
+"DB.c", line 76: warning: implicit function declaration: write
+"DB.c", line 84: warning: implicit function declaration: read
+"DB.c", line 87: warning: implicit function declaration: strncmp
+"DB.c", line 87: warning: implicit function declaration: wait
+cc -o Interface Interface.c -I.
+"Interface.c", line 104: warning: implicit function declaration: waitpid
+> Interface
+Welcome to Andrew Morris' implementation of Project 3.
+Reading from DB
+
+Child ID: 7935
+ toDB :3
+ toInt :6
+[0]:1122333 1 01/01/15 25.25 
+[1]:223334444 2 01/01/15 30.57 
+[2]:123123 3 01/01/15 10.00 
+[3]:141414 4 01/01/15 43.08 
+[4]:1122333 5 01/01/15 100.05 
+[5]:456784 6 01/01/15 10.23 
+[6]:983984 7 01/01/15 800.99 
+[7]:983985 7 01/01/15 80.99 
+[8]:983986 7 01/01/15 800.99 
+[9]:983987 7 01/01/15 800.99 
+[10]:983988 7 01/01/15 800.99 
+[11]:983989 7 01/01/15 8.99 
+[12]:983990 7 01/01/15 80.99 
+[13]:983984 7 01/02/15 800.99 
+[14]:983984 7 01/03/15 80000.99 
+[15]:983984 7 01/04/15 80000.99 
+[16]:983984 7 01/01/16 800.99 
+[17]:983984 7 02/01/16 800.99 
+[18]:983984 7 01/01/15 8.00 
+[19]:983984 7 02/01/15 80.99 
+[20]:983984 7 01/01/15 8.99 
+[21]:983984 7 02/02/09 80.99 
+[22]:983984 7 01/12/15 80.99 
+[23]:983984 7 01/01/11 80.99 
+[24]:983984 7 01/31/12 800.99 
+[25]:983984 7 01/01/13 80.99 
+[26]:983984 7 01/12/14 80.99 
+[27]:983984 7 01/01/15 80.99 
+[28]:983984 7 01/01/16 80.99 
+[29]:983984 7 01/01/17 8.99 
+[30]:983984 7 01/01/18 8.99 
+[31]:983984 7 01/01/15 80.99 
+Response: All records added successfully.
+ - DB Initialized - 
+Please supply a command( 'account, id' | list | date,mm/dd/yy | exit)
+:list
+Response: [0]:123123 3 01/01/15 10.00
+[1]:141414 4 01/01/15 43.08
+[2]:456784 6 01/01/15 10.23
+[3]:983984 7 02/02/09 80.99
+[4]:983984 7 01/01/11 80.99
+[5]:983984 7 01/31/12 800.99
+[6]:983984 7 01/01/13 80.99
+[7]:983984 7 01/12/14 80.99
+[8]:983984 7 01/01/15 8.00
+[9]:983984 7 01/01/15 8.99
+[10]:983984 7 01/01/15 800.99
+[11]:983984 7 01/01/15 80.99
+[12]:983984 7 01/01/15 80.99
+[13]:983984 7 01/02/15 800.99
+[14]:983984 7 01/03/15 80000.99
+[15]:983984 7 01/04/15 80000.99
+[16]:983984 7 02/01/15 80.99
+[17]:983984 7 01/01/16 800.99
+[18]:983984 7 01/12/15 80.99
+[19]:983984 7 01/01/16 80.99
+[20]:983984 7 02/01/16 800.99
+[21]:983984 7 01/01/17 8.99
+[22]:983984 7 01/01/18 8.99
+[23]:983985 7 01/01/15 80.99
+[24]:983986 7 01/01/15 800.99
+[25]:983987 7 01/01/15 800.99
+[26]:983988 7 01/01/15 800.99
+[27]:983989 7 01/01/15 8.99
+[28]:983990 7 01/01/15 80.99
+[29]:1122333 1 01/01/15 25.25
+[30]:1122333 5 01/01/15 100.05
+[31]:223334444 2 01/01/15 30.57
+
+Please supply a command( 'account, id' | list | date,mm/dd/yy | exit)
+:date,01/01/15
+Response: total for 01/01/15 = 3773.08.
+
+Please supply a command( 'account, id' | list | date,mm/dd/yy | exit)
+:account,1122333
+Response: total for 1122333 = 125.30.
+
+Please supply a command( 'account, id' | list | date,mm/dd/yy | exit)
+:askajdklsjss;lskpl;sd
+Response: DB did not understand the command... 
+
+Please supply a command( 'account, id' | list | date,mm/dd/yy | exit)
+:date,01 2/01/16
+Response: total for 02/01/16 = 800.99.
+
+Please supply a command( 'account, id' | list | date,mm/dd/yy | exit)
+:exit
+Response: 1
+Goodbye!
+> exit
+exit
+
+script done on October  1, 2015 04:05:27 PM CDT

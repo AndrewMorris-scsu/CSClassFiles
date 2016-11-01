@@ -1,0 +1,2 @@
+signals: signals.c signals.h
+cc -o SignalTest signals.c

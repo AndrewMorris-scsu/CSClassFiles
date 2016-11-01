@@ -1,0 +1,76 @@
+Script started on November 15, 2015 09:21:55 PM CST
+> whoami
+cs311122
+> make signals
+make: `signals' is up to date.
+> signals
+This process' ID is 10552
+Please specify the number of alarms you would like to set?
+ :10
+Current Time:1447644127 
+Setting alarms...(0, 1447644163)
+(1, 1447644173)
+(2, 1447644179)
+(3, 1447644177)
+(4, 1447644131)
+(5, 1447644170)
+(6, 1447644138)
+(7, 1447644153)
+(8, 1447644158)
+(9, 1447644175)
+time = 1447644127
+WARNING: Alarm in 4 seconds
+ALARM:  Signal received at 1447644131.
+9 signals left... 
+time = 1447644131
+WARNING: Alarm in 7 seconds
+SIGUSR1:  Signal received at 1447644136.
+Added alarm to go off at 1447644168
+Now there are 11 total signals
+9 signals left... 
+time = 1447644136
+WARNING: Alarm in 17 seconds
+SIGUSR1:  Signal received at 1447644140.
+Added alarm to go off at 1447644201
+Now there are 12 total signals
+9 signals left... 
+time = 1447644140
+WARNING: Alarm in 18 seconds
+ALARM:  Signal received at 1447644158.
+8 signals left... 
+time = 1447644158
+WARNING: Alarm in 5 seconds
+ALARM:  Signal received at 1447644163.
+7 signals left... 
+time = 1447644163
+WARNING: Alarm in 5 seconds
+ALARM:  Signal received at 1447644168.
+6 signals left... 
+time = 1447644168
+WARNING: Alarm in 2 seconds
+ALARM:  Signal received at 1447644170.
+5 signals left... 
+time = 1447644170
+WARNING: Alarm in 3 seconds
+ALARM:  Signal received at 1447644173.
+4 signals left... 
+time = 1447644173
+WARNING: Alarm in 2 seconds
+ALARM:  Signal received at 1447644175.
+3 signals left... 
+time = 1447644175
+WARNING: Alarm in 2 seconds
+ALARM:  Signal received at 1447644177.
+2 signals left... 
+time = 1447644177
+WARNING: Alarm in 2 seconds
+ALARM:  Signal received at 1447644179.
+1 signals left... 
+time = 1447644179
+WARNING: Alarm in 22 seconds
+ALARM:  Signal received at 1447644201.
+0 signals left... 
+> exit
+exit
+
+script done on November 15, 2015 09:24:14 PM CST

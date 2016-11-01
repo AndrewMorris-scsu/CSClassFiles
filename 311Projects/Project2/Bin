@@ -1,0 +1,251 @@
+Script started on September 16, 2015 04:02:57 PM CDT
+> Binary
+Welcome to Andrew Morris' implementation of Project 2
+Input a number:100000015
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+1
+00000101111101011110000100001111
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+00001011111010111100001000011110
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+00010111110101111000010000111100
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+00101111101011110000100001111000
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+01011111010111100001000011110000
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+10111110101111000010000111100000
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+01111101011110000100001111000001
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+11111010111100001000011110000010
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+01111101011110000100001111000001
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+10111110101111000010000111100000
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+01011111010111100001000011110000
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+00101111101011110000100001111000
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+00010111110101111000010000111100
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+00001011111010111100001000011110
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+00000101111101011110000100001111
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+10000010111110101111000010000111
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+11000001011111010111100001000011
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+11100000101111101011110000100001
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+3
+11110000010111110101111000010000
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+11100000101111101011110000100001
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+11000001011111010111100001000011
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+10000010111110101111000010000111
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+00000101111101011110000100001111
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+4
+What digit would you like to be zero?
+26
+00000001111101011110000100001111
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+00000011111010111100001000011110
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+00000111110101111000010000111100
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+00001111101011110000100001111000
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+2
+00011111010111100001000011110000
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+4
+What digit would you like to be zero?
+5
+00011111010111100001000011010000
+Select option
+1 - Display number in binary 
+2 - Shift left circular on digit
+3 - Shift right circular one digit
+4 - Set digit n to zero
+5 - Exit
+5
+> exit
+exit
+
+script done on September 16, 2015 04:04:28 PM CDT
