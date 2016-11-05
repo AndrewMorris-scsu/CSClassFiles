@@ -56,7 +56,7 @@ vector<Run> initRuns(string filename){
 			runLine>>temp;
 			i++;
 			totalElementsCount++;
-			cout<<temp<<" ";
+			//cout<<temp<<" ";
 		}
 		run.numObjects = i;
 		cout<<" Run is:(pos, number, current): (" << run.pos
@@ -103,8 +103,8 @@ void merge(string outFileName, string inFileName, vector<Run> runVector){
 		ValueRun<obj> popped = Heap.top();
 		int x = popped.run;
 
-		outfile<<popped.value<<" ";
-		cout<<popped.value<<" ";
+//		outfile<<popped.value<<" ";
+//		cout<<popped.value<<" ";
 		//cout<<x<< " ";
 		//cout<<popped.value<<" ";
 		//enqueue the next element in R[x]
@@ -133,10 +133,10 @@ void merge(string outFileName, string inFileName, vector<Run> runVector){
 	// 	cout<<popped.value<<" ";
 	// 	Heap.pop();
 	// }
-    cout << endl;
+ //   cout << endl;
 }
 int main(){
-	vector<Run> runVector = initRuns<int> ("test.dat");
-	merge<int> ("output.dat","test.dat", runVector);
+	vector<Run> runVector = initRuns<int> ("DFile");
+	merge<int> ("OFile","DFile", runVector);
 
 }
